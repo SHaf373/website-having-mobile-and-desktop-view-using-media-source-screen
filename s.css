@@ -1,0 +1,188 @@
+@media only screen and (min-width:601px)
+{
+div.head{
+	border: dashed;
+	border: 2;
+	text-align: center;
+	border-color: Black;
+	background-color: #3A65A7;
+}
+#mh3{
+	display: none;
+}
+div.List{
+	display: table;   /* Allow the centering to work */
+	/*margin: 0 auto;*/
+	background-color: #53B167;
+	position: fixed;
+	width: 98.8%
+
+	
+}
+div.mList{
+	display: none;
+}
+ul#horizontal-list li {
+		
+		display: inline;
+		letter-spacing: 20px;
+		padding: 30px;
+		font-size: 20px;
+		font-weight: bold;
+		color: black;
+        
+
+}
+ul#mhorizontal-list li{
+	display: none;
+}
+#img{
+	width: 79.8%;
+}
+#cimg{
+	display: none;
+}
+#img2{
+	width: 79.8%;
+}
+#cimg2{
+	display: none;
+}
+#img3{
+	width: 79.8%;
+}
+#cimg3{
+	display: none;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width:600px)
+{
+
+	
+div.mobhead
+{
+	border: dashed;
+	border: 2;
+	text-align: center;
+	border-color: Black;
+	background-color: #3A65A7;
+	width: 100%
+}
+#dh3{
+	display: none;
+}
+div.mList{
+	display: table;   /* Allow the centering to work */
+	/*margin: 0 auto;*/
+	background-color: #53B167;
+	position: fixed;
+	width: 100%
+
+	
+}
+div.List{
+	display: none;
+}
+ul#mhorizontal-list li {
+		
+		
+		letter-spacing: 10px;
+		padding: 5px;
+		font-size: 10px;
+		font-weight: bold;
+		color: black;
+		text-align: center;
+
+
+        
+
+}
+ul#dhorizontal-list li{
+	display: none;
+}
+#cimg{
+	position: absolute;
+	top: 168px;
+}
+#img{
+	display: none;
+}
+#cimg2{
+	position: absolute;
+	top: 168px;
+	width: 80%;
+	height: 80%;
+}
+#img2{
+	display: none;
+}	
+
+}
+#cimg3{
+	position: absolute;
+	top: 168px;
+}
+#img3{
+	display: none;
+}
+div.sidenav{
+	width: 20%;
+
+	height: 580px;
+	border: 1px solid black;
+	float: left;
+
+}
+.sidenav {
+  height: 30%; /* Full-height: remove this if you want "auto" height */
+  width: 30%; /* Set the width of the sidebar */
+ /*  position: fixed; Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  /* Stay at the top */
+  
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+#br{
+  display: block;
+  margin-bottom: 2px;
+  font-size:100px;
+  line-height: 2px;
+ }
+	
+		
+
+
+
+
+
+div.footer {
+  position: fixed;
+  
+  bottom: 0;
+  width: 98.8%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
